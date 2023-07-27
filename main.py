@@ -18,9 +18,8 @@ engine = pyttsx3.init()
 #*Configurar la voz para que suene más natural
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)  #*Índice 1 para una voz más natural
-
-#*Ajustar la velocidad de habla (0.5 para lento, 1.0 para normal, 2.0 para rápido, etc.)
-engine.setProperty('rate', 150)
+engine.setProperty('voice', 'spanish') #*configurar el idoma de la voz en español 
+engine.setProperty('rate', 150)#*Ajustar la velocidad de habla (0.5 para lento, 1.0 para normal, 2.0 para rápido, etc.)
 
 
 #*Establecer el idioma de Wikipedia a español

@@ -19,9 +19,9 @@ function instalar_pip() {
     fi
 }
 
-#* Lista de bibliotecas de Python a instalar
+#*Lista de bibliotecas de Python a instalar
 #*Agrega o quita bibliotecas según tus necesidades
-LIBS=("speech_recognition" "pyttsx3" "pywhatkit" "gtts" "playsound" "requests")
+LIBS=("speech_recognition" "pyttsx3" "pywhatkit" "pyaudio" "gtts" "playsound" "requests")
 
 #*Comprobar si pip está instalado
 instalar_pip
