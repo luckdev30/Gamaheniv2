@@ -177,4 +177,7 @@ if __name__ == "__main__":
 
         if query:
             respuesta = assistant.obtener_respuesta(query)
-            assistant.hablar(respuesta)
+            #*Utilizamos gTTS para convertir el texto a voz en español
+            tts = gTTS(text=respuesta, lang='es')
+            tts.save('respuesta.mp3')
+            os.system('mpg321 respuesta.mp3')  #*Reproducimos el audio
