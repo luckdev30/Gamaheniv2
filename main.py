@@ -26,8 +26,8 @@ engine.setProperty('rate', 150)
 #*Establecer el idioma de Wikipedia a español
 wikipedia.set_lang('es')
 
-#*API Key de OpenWeatherMap (reemplazar con tu propia clave)
-API_KEY = 'TU_API_KEY'
+#*API Key de OpenWeatherMap (reemplazar la clave)
+API_KEY = 'La clave Api a utilizar'
 
 #*Se crea una clase para el asistente 
 class Assistant:
